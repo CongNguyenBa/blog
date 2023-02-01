@@ -3,15 +3,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Blog`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `My Blog`,
+    siteUrl: `http://localhost:8000`
   },
-  plugins: ["gatsby-plugin-mdx", {
-    resolve: 'gatsby-source-filesystem',
+  plugins: [
+    "gatsby-plugin-mdx", 
+  {
+    resolve: `gatsby-source-filesystem`,
     options: {
-      "name": "pages",
-      "path": "./src/pages/"
+      name: `articles`,
+      path: `${__dirname}/content/articles`,
     },
-    __key: "pages"
-  }]
+  },
+  "gatsby-plugin-postcss"
+],
 };
