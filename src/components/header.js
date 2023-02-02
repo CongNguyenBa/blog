@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const Header = () => {
   return (
-    <nav id='header' className='fixed w-full z-10 top-0 border-b border-blue-400'>
+    <nav id='header' className='w-full z-10 top-0 border-b border-blue-400'>
       <div className='w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3'>
         
         <div className='px-4'>

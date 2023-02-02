@@ -6,7 +6,7 @@ const Layout = ({children}) => {
   return (
     <main>
       <Header></Header>
-      <body className='container w-full mx-auto pt-20 md:max-w-3xl'>
+      <body className='container w-full mx-auto md:max-w-3xl 2xl:max-w-4xl  '>
       {children}
       </body>
       <Footer></Footer>
