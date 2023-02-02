@@ -1,5 +1,5 @@
 const path = require("path")
-const postTemplate = path.resolve(`./src/pages/article.js`)
+const postTemplate = path.resolve(`./src/template/article.js`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
