@@ -64,6 +64,6 @@ export const query = graphql`
 
 export function Head() {
   return (
-    <title> Blog </title>
+    <title> {data.mdx.frontmatter.title} | First Blog </title>
   )
 }
